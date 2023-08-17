@@ -25,7 +25,7 @@ public class OpMatematicas {
         op = a1.next();
         //creacion del switch y case1-suma
         switch(op){
-       
+            //Suma
             case "1":
                 System.out.print("\t suma \n ingresa el primer numero: ");
                 n1 = a1.nextInt();
@@ -35,6 +35,18 @@ public class OpMatematicas {
                 suma = n1+n2;
                 
                 System.out.println("la suma es: "+suma+"\n");
+                break;
+            // Resta
+            case "2":
+                System.out.println("\t Resta \n ingresa el primer numero: ");
+                n1 = a1.nextInt();
+                System.out.println("ingesa el segundo numero: ");
+                n2 = a1.nextInt();
+                
+                resta = n1 - n2;
+                
+                System.out.println("La resta es : "+resta+"\n");
+                break;
     }
     }
 }
