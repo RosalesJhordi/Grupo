@@ -47,6 +47,17 @@ public class OpMatematicas {
                 
                 System.out.println("La resta es : "+resta+"\n");
                 break;
+            //multiplicacion
+            case "3":
+                System.out.println("\t multiplicacion \n ingresa el primer numero: ");
+                n1 = a1.nextInt();
+                System.out.println("ingesa el segundo numero: ");
+                n2 = a1.nextInt();
+                
+                mult = n1 * n2;
+                
+                System.out.println("La multiplicacion es : "+mult+"\n");
+                break;
     }
     }
 }
