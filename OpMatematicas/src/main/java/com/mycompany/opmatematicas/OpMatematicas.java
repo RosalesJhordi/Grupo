@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class OpMatematicas {
 
     public static void main(String[] args) {
+        //Agregamos bucle do-while
+        do{
         // importamos la clase scanner
         Scanner a1 = new Scanner(System.in);
         
@@ -74,5 +76,6 @@ public class OpMatematicas {
                 System.out.println("\n OPCION NO VALIDA");
                 break;
     }
-    }
+    }while(10==10);
+}
 }
