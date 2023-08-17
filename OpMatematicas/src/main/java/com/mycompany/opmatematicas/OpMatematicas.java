@@ -5,9 +5,13 @@
 package com.mycompany.opmatematicas;
 
 // Iniciamos
+
+import java.util.Scanner;
+
 public class OpMatematicas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // importamos la clase scanner
+        Scanner a1 = new Scanner(System.in);
     }
 }
