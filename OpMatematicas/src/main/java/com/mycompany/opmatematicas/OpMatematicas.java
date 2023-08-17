@@ -69,6 +69,10 @@ public class OpMatematicas {
                 
                 System.out.println("La division es : "+div+"\n");
                 break;
+                
+            default:
+                System.out.println("\n OPCION NO VALIDA");
+                break;
     }
     }
 }
