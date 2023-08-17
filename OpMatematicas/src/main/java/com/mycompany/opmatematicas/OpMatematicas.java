@@ -58,6 +58,17 @@ public class OpMatematicas {
                 
                 System.out.println("La multiplicacion es : "+mult+"\n");
                 break;
+            //division
+            case "4":
+                System.out.println("\t Division \n ingresa el primer numero: ");
+                n1 = a1.nextInt();
+                System.out.println("ingesa el segundo numero: ");
+                n2 = a1.nextInt();
+                
+                div = n1 / n2;
+                
+                System.out.println("La division es : "+div+"\n");
+                break;
     }
     }
 }
